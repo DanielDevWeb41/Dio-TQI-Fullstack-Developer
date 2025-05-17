@@ -133,8 +133,94 @@ var nao = !true;
 console.log(nao);
 
 
+// Vetores ou Arrays
+
+/* let array = ['string',1, true ];
+console.log(array); */ 
+
+//pode guardar vários tipos de dados
+let array1 = ['string', 1, true, ['array2'], ['array3'], ['array4']];
+//console.log(array1);
+
+//ForEach
+// array1.forEach(function(item, index){console.log(item, index)});
 
 
+//push 
+/* array1.push(1);
+console.log(array1) */
+
+
+//pop
+/* array1.pop();
+console.log(array1); */
+
+
+//shift
+/* array1.shift();
+console.log(array1) */
+
+
+// unshift
+/* array1.unshift("novo item");
+console.log(array1) */
+
+
+//indexOf 
+//console.log(array1.indexOf (true));
+
+
+//splice
+/* array1.splice(0, 3);
+console.log(array1) */ 
+
+
+//slice
+/* let novoArray = array1.slice(0, 3);
+console.log(novoArray); */ 
+
+
+
+//OBJETOS
+/* let object = {String: 'string', Number: 1, Boolean: true, array: ["array"], objectInterno: {objectInterno: 'objeto interno'}};
+
+console.log(object.objectInterno)
+
+var string = object.String;
+console.log(string);
+
+var array = object.array;
+console.log(array);
+
+var { String, Boolean, objectInterno} = object;
+console.log(String, Boolean, objectInterno); */ 
+
+
+
+// Estruturas condicionais
+
+        // Estruturas de decisão
+        var jogador1 = -1;
+        var jogador2 = 0
+        var placar;
+
+        /* if (jogador1 > 0) {
+            console.log('jogador 1 marcou ponto');
+        } else if(jogador2 > 0) {
+            console.log('jogador 2 marcou ponto')
+        } else {
+            console.log('Ninguém marcou ponto')
+        } */
+
+            //ninho de IF
+            if (jogador1 !== -1)
+                if (jogador1 > 0) {
+                    console.log('jogador 1 marcou ponto');
+                } else if(jogador2 > 0) {
+                    console.log('jogador 2 marcou ponto')
+                } else {
+                    console.log('Ninguém marcou ponto')
+                } 
 
 
 
